@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sample</title>
+        <title>Toggleable Sidebar</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen" />
         <link href="resources/css/toggle-side-bar.css" rel="stylesheet" />
@@ -14,8 +14,9 @@
     <body>
         <div class="sidebar">
             <div class="container">
-                <a href="#" class="btn btn-primary toggler" onclick="Sidebar.toggle();"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <!--<a href="#" class="btn btn-primary toggler" onclick="Sidebar.toggle();"><span class="glyphicon glyphicon-chevron-left"></span></a>-->
                 <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#" class="toggler" onclick="Sidebar.toggle();"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;<span class="toggle-hidden">Collapse</span></a></li>
                     <li class="active"><a href="#" ><span class="glyphicon glyphicon-home"></span>&nbsp;<span class="toggle-hidden">Home</span></a></li>
                     <li><a href="#" ><span class="glyphicon glyphicon-tags"></span>&nbsp;<span class="toggle-hidden">Bid</span></a></li>
                     <li><a href="#" ><span class="glyphicon glyphicon-file"></span>&nbsp;<span class="toggle-hidden">Template</span></a></li>
@@ -27,6 +28,7 @@
             </div>
         </div>
         <div class="content">
+            <div class="login-info">Welcome, JEGAR APIAG</div>
             <div class="container">
                 <div class="page-header">
                     <h1>Main Content Panel</h1>

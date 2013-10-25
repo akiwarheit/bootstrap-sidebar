@@ -17,13 +17,7 @@ body {
     bottom:0;
     top:100px;
     overflow-x: hidden;
-}
-
-.toggler {
-    width: 45px;
-    padding : 13px;
-    border-radius : 0px;
-    height: 45px;
+    z-index: 100;
 }
 
 .sidebar>.container>.nav>li>a {
@@ -50,11 +44,22 @@ body {
 }
 
 .content {
+    position:absolute;
     padding-left: 185px;
     width: 100%;
+    right: 0;
+    bottom: 0;
+    top: 0;
 }
 
 .content > .container {
+    position:absolute;
+    width: 85%;
+    top: 0;
+    bottom: 50px;
     margin-top: 50px;
     background: white;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius : 5px 0px 0px 5px;
 }
