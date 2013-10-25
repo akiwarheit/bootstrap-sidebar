@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="resources/css/toggle-side-bar.css" rel="stylesheet" />
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="../../assets/js/html5shiv.js"></script>
+          <script src="../../assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="container">
+                <a href="#" class="btn btn-primary toggler" onclick="Sidebar.toggle();"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#" ><span class="glyphicon glyphicon-home"></span>&nbsp;<span class="toggle-hidden">Home</span></a></li>
+                    <li><a href="#" ><span class="glyphicon glyphicon-tags"></span>&nbsp;<span class="toggle-hidden">Bid</span></a></li>
+                    <li><a href="#" ><span class="glyphicon glyphicon-file"></span>&nbsp;<span class="toggle-hidden">Template</span></a></li>
+                    <li><a href="#" ><span class="glyphicon glyphicon-th-list"></span>&nbsp;<span class="toggle-hidden">Headers</span></a></li>
+                    <li><a href="#" ><span class="glyphicon glyphicon-cog"></span>&nbsp;<span class="toggle-hidden">Admin</span></a></li>
+                    <li><a href="#" ><span class="glyphicon glyphicon-comment"></span>&nbsp;<span class="toggle-hidden">Feedback</span></a></li>
+                    <li><a href="#" ><span class="glyphicon glyphicon-question-sign"></span>&nbsp;<span class="toggle-hidden">Help</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Main Content Panel</h1>
+                    <p class="lead">Contains the contents... chorva.</p>
+                </div>
+            </div>
+        </div>
+        <script src="resources/js/jquery-1.10.2.min.js"></script>
+        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/js/toggle-side-bar.js"></script>
+    </body>
+</html>

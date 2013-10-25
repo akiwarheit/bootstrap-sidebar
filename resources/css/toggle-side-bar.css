@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: #A0A0A0;
+}
+
+.sidebar {
+    float: left;
+    height: 100%;
+    bottom: 0;
+    min-width:  50px;
+    width: 200px;
+    height: 100%;
+    display: block;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:100px;
+    overflow-x: hidden;
+}
+
+.toggler {
+    width: 45px;
+    padding : 13px;
+    border-radius : 0px;
+    height: 45px;
+}
+
+.sidebar>.container>.nav>li>a {
+    max-height: 40px;
+    border-radius : 0px;
+    margin-top: 5px;
+    color: white;
+    background-color: #428bca;
+}
+
+.sidebar>.container>.nav>li>a:hover {
+    color: #76933c;
+    background-color: white;
+}
+
+.sidebar>.container>.nav>li.active>a {
+    color: #76933c;
+    background-color: white;
+}
+
+
+.toggle-hidden {
+    margin-left: 15px;
+}
+
+.content {
+    padding-left: 185px;
+    width: 100%;
+}
+
+.content > .container {
+    margin-top: 50px;
+    background: white;
+}
