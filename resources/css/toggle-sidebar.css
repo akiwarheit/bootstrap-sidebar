@@ -46,10 +46,10 @@ body {
 .content {
     position:absolute;
     padding-left: 185px;
-    width: 100%;
     right: 0;
     bottom: 0;
     top: 0;
+    width: 100%;
 }
 
 .content > .container {
@@ -85,6 +85,9 @@ body {
     color: #76933c;
 }
 
+.toggler {
+    margin-bottom: 30px;
+}
+
 .toggler > .toggle-hidden {
-    text-decoration: overline;
 }
