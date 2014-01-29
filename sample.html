@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Toggleable Sidebar</title>
+        <title>Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="resources/css/normalize.css" rel="stylesheet" />
         <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-        <link href="resources/css/toggle-sidebar.css" rel="stylesheet" />
-        <link href="resources/css/footer.css" rel="stylesheet" />
+        <link href="resources/css/template.css" rel="stylesheet" />
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="../../assets/js/html5shiv.js"></script>
@@ -14,45 +13,38 @@
         <![endif]-->
     </head>
     <body>
-        <div class="sidebar">
-            <div class="container">
-                <ul class="nav nav-pills nav-stacked">
-                    <li><a href="#" class="toggler" onclick="Sidebar.toggle();"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;<span class="toggle-hidden">Collapse</span></a></li>
-                    <li class="active"><a href="#" ><span class="glyphicon glyphicon-home"></span>&nbsp;<span class="toggle-hidden">Home</span></a></li>
-                    <li><a href="#" ><span class="glyphicon glyphicon-tags"></span>&nbsp;<span class="toggle-hidden">Tags</span></a></li>
-                    <li><a href="#" ><span class="glyphicon glyphicon-file"></span>&nbsp;<span class="toggle-hidden">Files</span></a></li>
-                    <li><a href="#" ><span class="glyphicon glyphicon-th-list"></span>&nbsp;<span class="toggle-hidden">Lists</span></a></li>
-                    <li><a href="#" ><span class="glyphicon glyphicon-cog"></span>&nbsp;<span class="toggle-hidden">Settings</span></a></li>
-                    <li><a href="#" ><span class="glyphicon glyphicon-comment"></span>&nbsp;<span class="toggle-hidden">Feedback</span></a></li>
-                    <li><a href="#" ><span class="glyphicon glyphicon-question-sign"></span>&nbsp;<span class="toggle-hidden">Help</span></a></li>
+        <div class="page-container">
+            <div class="side-menu">
+                <header>
+                    <div class="logo">
+                        <a href="#">Go On Girl...</a>
+                    </div>
+                </header>
+                <ul class="items" style="">
+                    <li class="root-level">
+                        <a href="#"><span class="glyphicon glyphicon-home"></span><span style=""> Dashboard</span></a>
+                    </li>
+                    <li class="root-level has-sub">
+                        <a href="#"><span class="glyphicon glyphicon-user"></span><span style=""> My Account</span></a>
+                        <ul class="sub-items" style="display: none;">
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                        </ul>
+                    </li>
+                    <li class="root-level">
+                        <a href="#"><span class="glyphicon glyphicon-question-sign"></span><span style=""> About</span></a>
+                    </li>
                 </ul>
             </div>
-        </div>
-        <div class="content">
-            <div class="login-info">Welcome, <a href="#"><span class="username">Kevin Jude Gwapo</span>&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a></div>
-            <div class="container">
-                <div class="page-header">
-                    <h1>Main Content Panel</h1>
-                    <p class="lead">Main Content Goes Here</p>
+            <div class="page-content">
+                <div class="row">
+                </div>
+                <div class="row breadcrumbs">
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="footer-container">
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">About</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-                <span class="footer-copyright">&copy; 2013 KJD, All Rights Reserved.</span>
-            </div>
-        </footer>
         <script src="resources/js/jquery-1.10.2.min.js"></script>
         <script src="resources/js/bootstrap.min.js"></script>
         <script src="resources/js/toggle-sidebar.js"></script>
