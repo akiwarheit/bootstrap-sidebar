@@ -1,14 +1,14 @@
 (function($) {
+    $('.page-container').css({
+        "min-height" : $(window).height() + "px"
+    });
+
     $('.page-container').animate({
         width: [ "toggle", "linear" ],
         height: [ "toggle", "linear" ],
         opacity: "toggle"
     }, { 
-        duration : 3000,
-        specialEasing: {
-            width: "linear",
-            height: "easeOutBounce"
-        }
+        duration : 3000
     });
 
     $('.side-menu > .items > li.has-sub.root-level > a').on('click', function () {
