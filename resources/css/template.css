@@ -8,6 +8,10 @@ body {
     padding-left: 280px;
 }
 
+.page-container.sidebar-collapsed {
+    padding-left: 65px;
+}
+
 .side-menu {
     position: absolute;
     width: 280px;
@@ -80,9 +84,9 @@ body {
 
 .side-menu .items li.has-sub > a:before {
     position: relative;
-    /*    content: '\e877';
-        content: '\e879';*/
-    content: '>';
+    /*        content: '\e877';
+            content: '\e879';
+        content: '>';*/
     display: inline-block;
     font-family: 'Entypo';
     color: #454a54;
