@@ -116,3 +116,75 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#user-management-panel > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left!important;
+}
+
+#user-management-panel > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#user-management-panel > ul > a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    color: #737881;
+}
+
+.tile {
+    position: relative;
+    display: block;
+    background: #303641;
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    color : #ffffff;
+}
+
+.red {
+    background: #f56954;
+}
+
+.green {
+    background: #006699;
+}
+
+.pink {
+    background: #FF66FF;
+}
+
+.lavender {
+    background: #66CCFF;
+}
+
+
+div.icon {
+    color: rgba(0,0,0,0.1);
+    position: absolute;
+    right: 5px;
+    bottom: 55px;
+    z-index: 1;
+}
+
+div.icon > span {
+    font-size: 100px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}

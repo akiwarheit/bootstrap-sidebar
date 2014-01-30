@@ -12,7 +12,7 @@
         height: [ "toggle", "swing" ],
         opacity: "toggle"
     },{ 
-        duration : 500
+        duration : 900
     });
 
     $('.side-menu > .items > li.has-sub.root-level > a').on('click', function () {
@@ -22,6 +22,7 @@
     });
 
     $('.logo').on('click', function() {
+        $('.logo > a').toggle();
         if($('.page-container').hasClass('sidebar-collapsed')) {
             $('.page-container').animate({
                 paddingLeft : '280px'
