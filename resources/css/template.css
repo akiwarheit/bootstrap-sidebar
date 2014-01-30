@@ -84,9 +84,6 @@ body {
 
 .side-menu .items li.has-sub > a:before {
     position: relative;
-    /*        content: '\e877';
-            content: '\e879';
-        content: '>';*/
     display: inline-block;
     font-family: 'Entypo';
     color: #454a54;
@@ -187,4 +184,22 @@ div.icon > span {
     margin: 0;
     padding: 0;
     vertical-align: bottom;
+}
+
+.tile-verbose {
+    background: #00a65b;
+    color: #fff;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.tile-verbose .tile-header {
+    display: block;
+    margin-top: 4px;
+    font-size: 11px;
 }

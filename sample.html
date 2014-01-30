@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="resources/css/normalize.css" rel="stylesheet" />
         <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="resources/css/jquery.dataTables.css" rel="stylesheet" />
+        <link href="resources/css/datatables.css" rel="stylesheet" />
         <link href="resources/css/template.css" rel="stylesheet" />
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -62,7 +64,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-3">
                         <div class="tile red">
-                            <h1>0</h1>
+                            <h1>1</h1>
                             <p>Lates this week</p>
                             <div class="icon"><span class="glyphicon glyphicon-warning-sign icon"></span></div>
                         </div>
@@ -85,7 +87,35 @@
                         <div class="tile lavender">
                             <h1>500</h1>
                             <p>Requests approved</p>
-                            <div class="icon"><span class="glyphicon glyphicon-time icon"></span></div>
+                            <div class="icon"><span class="glyphicon glyphicon-check icon"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="panel panel-default" >
+                            <div class="panel-heading">Weekly Time Record</div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Monday</th>
+                                        <th>Tuesday</th>
+                                        <th>Wednesday</th>
+                                        <th>Thursday</th>
+                                        <th>Friday</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><label class="label label-success">7:58 AM</label></td>
+                                        <td><label class="label label-success">7:56 AM</label></td>
+                                        <td><label class="label label-success">7:57 AM</label></td>
+                                        <td><label class="label label-success">7:51 AM</label></td>
+                                        <td><label class="label label-danger">8:07 AM</label></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -93,6 +123,8 @@
         </div>
         <script src="resources/js/jquery-1.10.2.min.js"></script>
         <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/js/jquery.dataTables.min.js"></script>
+        <script src="resources/js/datatables.js"></script>
         <script src="resources/js/template.js"></script>
     </body>
 </html>

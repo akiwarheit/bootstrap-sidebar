@@ -1,10 +1,10 @@
 (function($) {
     $('.page-content, .side-menu').css({
-        "min-height" : $(window).height() + "px"
+        "min-height" : $(window).height()+100 + "px"
     });
 
     $('.page-container').css({
-        "min-height" : $(window).height() + "px"
+        "min-height" : $(window).height()+100 + "px"
     });
 
     $('.page-container').animate({
@@ -36,4 +36,23 @@
             $('.page-container').toggleClass('sidebar-collapsed');
         });
     });
+    
+//    window.onresize = function() {
+//        $('.page-content, .side-menu').css({
+//            "min-height" : $(window).height() + "px"
+//        });
+//        $('.page-container').css({
+//            "min-height" : $(window).height() + "px"
+//        });
+//    }
 })(jQuery);
+
+$(document).ready(function() {
+    $('#employee-list').dataTable({
+        "sDom": "<'row'<'col-xs-6'T><'col-xs-6'f>r>t<'row'<'col-xs-6'i><'col-xs-6'p>>",
+        "aoColumnDefs": [{
+            "bSortable": false, 
+            "aTargets": [ 4,5 ]
+        }]
+    });  
+} );

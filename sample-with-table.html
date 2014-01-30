@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="resources/css/normalize.css" rel="stylesheet" />
+        <link href="resources/css/jquery.dataTables.css" rel="stylesheet" />
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="resources/css/datatables.css" rel="stylesheet" />
+        <link href="resources/css/template.css" rel="stylesheet" />
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="../../assets/js/html5shiv.js"></script>
+          <script src="../../assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="page-container" style="display: none;">
+            <div class="side-menu">
+                <header>
+                    <div class="logo">
+                        <a href="#">Go On Girl...</a>
+                    </div>
+                </header>
+                <ul class="items" style="">
+                    <li class="root-level">
+                        <a href="#"><span class="glyphicon glyphicon-home"></span><span style=""> Dashboard</span></a>
+                    </li>
+                    <li class="root-level has-sub">
+                        <a href="#"><span class="glyphicon glyphicon-user"></span><span style=""> My Account</span></a>
+                        <ul class="sub-items" style="display: none;">
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                            <li><a href="#">Please Don't Worry About Me I'm Fine</a></li>
+                        </ul>
+                    </li>
+                    <li class="root-level">
+                        <a href="#"><span class="glyphicon glyphicon-question-sign"></span><span style=""> About</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-8" id="user-management-panel">
+                        <ul>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Michael Ramos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-list"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-4">
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Employees</h3>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table table-striped table-bordered" id="employee-list">
+                                    <thead>
+                                        <tr>
+                                            <th>Code</th>
+                                            <th>Name</th>
+                                            <th>Address</th>
+                                            <th>Contact No.</th>
+                                            <th>HR Controls</th>
+                                            <th>View Requests</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>CR0001</td>
+                                            <td>Almarissa Aelimino</td>
+                                            <td>22nd Jump St.</td>
+                                            <td>69696969</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0002</td>
+                                            <td>Charina Insik Maldita</td>
+                                            <td>China Chinese New Year</td>
+                                            <td>5</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0003</td>
+                                            <td>Israel Sato</td>
+                                            <td>Pardo</td>
+                                            <td>1231231312312</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0004</td>
+                                            <td>Jose Marlon "Gahi" Ancajas</td>
+                                            <td>Tibo-ok Cebu</td>
+                                            <td>123123123141</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0005</td>
+                                            <td>Michael Ramos</td>
+                                            <td>Alegria</td>
+                                            <td>231321</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0006</td>
+                                            <td>Dea Mari Escalona</td>
+                                            <td>Talamban</td>
+                                            <td>0922basta oi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0007</td>
+                                            <td>Brian Cuizon</td>
+                                            <td>Didto</td>
+                                            <td>0922basta oi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0008</td>
+                                            <td>Junji Bacon</td>
+                                            <td>Pardo</td>
+                                            <td>0922basta oi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0009</td>
+                                            <td>Maggie Gabunada</td>
+                                            <td>5151</td>
+                                            <td>0922basta oi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0010</td>
+                                            <td>Sedfrey "Mas Gahi Pang Marlon" Manego</td>
+                                            <td>12321</td>
+                                            <td>0922basta oi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0011</td>
+                                            <td>Si Babe</td>
+                                            <td>12321</td>
+                                            <td>0922basta oi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>CR0012</td>
+                                            <td>JR Peteros</td>
+                                            <td>12321</td>
+                                            <td>0922basta oi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+                                                <button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-hand-left"></span> Invite to Condo</button>
+                                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete</button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-time"></span> OTs</button>
+                                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Leaves</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                </div>
+            </div>
+        </div>
+        <script src="resources/js/jquery-1.10.2.min.js"></script>
+        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/js/jquery.dataTables.min.js"></script>
+        <script src="resources/js/datatables.js"></script>
+        <script src="resources/js/template.js"></script>
+    </body>
+</html>
