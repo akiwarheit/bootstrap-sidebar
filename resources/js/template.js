@@ -53,6 +53,9 @@ $(document).ready(function() {
         "aoColumnDefs": [{
             "bSortable": false, 
             "aTargets": [ 4,5 ]
+        }, {
+            "bSearchable": false, 
+            "aTargets": [ 4,5 ]
         }]
     });  
 } );
