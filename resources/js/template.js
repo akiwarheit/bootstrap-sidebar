@@ -37,14 +37,14 @@
         });
     });
     
-//    window.onresize = function() {
-//        $('.page-content, .side-menu').css({
-//            "min-height" : $(window).height() + "px"
-//        });
-//        $('.page-container').css({
-//            "min-height" : $(window).height() + "px"
-//        });
-//    }
+    window.onresize = function() {
+        $('.page-content, .side-menu').css({
+            "min-height" : $(window).height() + "px"
+        });
+        $('.page-container').css({
+            "min-height" : $(window).height() + "px"
+        });
+    }
 })(jQuery);
 
 $(document).ready(function() {

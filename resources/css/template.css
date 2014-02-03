@@ -158,6 +158,11 @@ body {
 }
 
 .green {
+    background: #228B22;
+
+}
+
+.blue {
     background: #006699;
 }
 
@@ -202,4 +207,8 @@ div.icon > span {
     display: block;
     margin-top: 4px;
     font-size: 11px;
+}
+
+.row a {
+    text-decoration: none;
 }
